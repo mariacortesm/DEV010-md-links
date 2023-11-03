@@ -1,9 +1,9 @@
 const mdLinks = require("./lib/mdlinks.js");
 // mdLinks("./some/example.md")
 
-mdLinks("./README.md")
+mdLinks("./linkMarkdown.md")
   .then(links => {
-    console.log(links);
+    console.log('Resultado de MDLinks', links);
   })
   .catch(console.error);
 

@@ -1,13 +1,14 @@
 const mdLinks = require("./lib/mdlinks.js");
+const validateLinks = true
 // mdLinks("./some/example.md")
 
-mdLinks("./linkMarkdown.md")
+mdLinks("./linkMarkdown.md", true)
   .then(links => {
-    console.log('Resultado de MDLinks', links);
+    validateLinks(links);
   })
   .catch(console.error);
 
-  
+
 
 // module.exports = () => {
 //   // ...

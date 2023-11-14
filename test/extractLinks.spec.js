@@ -1,5 +1,5 @@
 const extractFile = require('../lib/extractLinks');
-const route = "/path/to/file.md";
+// const route = "/path/to/file.md";
 
 describe("extractFile", () => {
   // Comienza la descripción de las pruebas para la función extractMarkdownLinks.
